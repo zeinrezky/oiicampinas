@@ -14,8 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    // let's make a bit changes
+    
+    // Hour conversion
+    func secondToHour(second: Int) -> Int {
+        let hour = second / 3600
+        return hour
+    }
     
 }
 
