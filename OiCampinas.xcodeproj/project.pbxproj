@@ -12,6 +12,8 @@
 		E6B47FA22355C31B00E2D2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B47FA02355C31B00E2D2FB /* Main.storyboard */; };
 		E6B47FA42355C31D00E2D2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B47FA32355C31D00E2D2FB /* Assets.xcassets */; };
 		E6B47FA72355C31D00E2D2FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B47FA52355C31D00E2D2FB /* LaunchScreen.storyboard */; };
+		E6B47FAF2355C73100E2D2FB /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B47FAE2355C73100E2D2FB /* Challenge.swift */; };
+		E6B47FB2235649E500E2D2FB /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B47FB1235649E500E2D2FB /* LearnerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E6B47FA32355C31D00E2D2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6B47FA62355C31D00E2D2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6B47FA82355C31D00E2D2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B47FAE2355C73100E2D2FB /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		E6B47FB1235649E500E2D2FB /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		E6B47F9B2355C31B00E2D2FB /* OiCampinas */ = {
 			isa = PBXGroup;
 			children = (
+				E6B47FB0235649D800E2D2FB /* Model */,
 				E6B47F9C2355C31B00E2D2FB /* AppDelegate.swift */,
 				E6B47F9E2355C31B00E2D2FB /* ViewController.swift */,
+				E6B47FAE2355C73100E2D2FB /* Challenge.swift */,
 				E6B47FA02355C31B00E2D2FB /* Main.storyboard */,
 				E6B47FA32355C31D00E2D2FB /* Assets.xcassets */,
 				E6B47FA52355C31D00E2D2FB /* LaunchScreen.storyboard */,
 				E6B47FA82355C31D00E2D2FB /* Info.plist */,
 			);
 			path = OiCampinas;
+			sourceTree = "<group>";
+		};
+		E6B47FB0235649D800E2D2FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6B47FB1235649E500E2D2FB /* LearnerModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B47F9F2355C31B00E2D2FB /* ViewController.swift in Sources */,
+				E6B47FAF2355C73100E2D2FB /* Challenge.swift in Sources */,
 				E6B47F9D2355C31B00E2D2FB /* AppDelegate.swift in Sources */,
+				E6B47FB2235649E500E2D2FB /* LearnerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
