@@ -14,8 +14,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    // let's make a bit changes
     
+    var learners: Learners()
+    
+    func updateLearningObjectives(add: Int) {
+        learners.learningObjectives += add
+    }
+    
+    func updateGroupMentorName(name: String) {
+        learners.groupMentorName = name
+    }
+    
+    func updateProjectName(projectName: String) {
+        learners.projectName = projectName
+    }
 }
 
